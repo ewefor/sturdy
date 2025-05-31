@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.pod_with_payment_for_update]
+path = 'contracts/pod_with_payment_for_update.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.research_funding]
 path = 'contracts/research_funding.clar'
 clarity_version = 2
