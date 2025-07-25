@@ -10,6 +10,11 @@ path = 'contracts/pod_with_payment_for_update.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.random_winner_selection]
+path = 'contracts/random_winner_selection.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.research_funding]
 path = 'contracts/research_funding.clar'
 clarity_version = 2
