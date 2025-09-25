@@ -24,6 +24,11 @@ epoch = 2.5
 path = 'contracts/storage_contract_factory.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.winner_random_selection]
+path = 'contracts/winner_random_selection.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
