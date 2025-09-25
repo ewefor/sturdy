@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.multi_send_event_logging]
+path = 'contracts/multi_send_event_logging.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.pod_with_payment_for_update]
 path = 'contracts/pod_with_payment_for_update.clar'
 clarity_version = 2
